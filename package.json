@@ -1,0 +1,24 @@
+{
+  "name": "restart-listener",
+  "version": "1.0.0",
+  "description": "Provides webhooks that pull and restarts containers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony-async-await app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJBnjack/restart-listener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DJBnjack/restart-listener/issues"
+  },
+  "homepage": "https://github.com/DJBnjack/restart-listener#readme",
+  "dependencies": {
+    "dockerode": "^2.3.1",
+    "express": "^4.14.1"
+  }
+}
